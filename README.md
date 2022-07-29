@@ -46,7 +46,7 @@ Go to the project directory
 
 ## 😌 Honest Time to finish the project
 
-I had took about 1hrs 8min. Hpoefully did not stuck anywhere. Developeing process went smoothly ☺☺☺☺☺ 
+I had took about 1hrs 8min. Hpoefully did not stuck anywhere. Developeing process went smoothly ☺☺☺☺ 
 
 ## 👀 Feedback
 If you have any feedback, please reach out to us at qa.sixsigma@gmail.com
