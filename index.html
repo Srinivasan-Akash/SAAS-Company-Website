@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <div>
@@ -21,14 +23,19 @@
             <li>Blog</li>
             <button>Free Trail</button>
         </ul>
+
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
     </nav>
 
 
     <main>
-        <section aria-label="content">
+        <section class="content">
             <h1>Codext one of the best system in SAAS</h1>
             <article>
-                Lorem ipsum vdolor sit amet, consectetur adisiping elit. A nulla nulla etlam turpis quam. A nulla nulla etlam turpis quam diam et arcu nisi, sed aenean sit nisl.
+                Lorem ipsum vdolor sit amet, consectetur adisiping elit. A nulla nulla etlam turpis quam. A nulla nulla
+                etlam turpis quam diam et arcu nisi, sed aenean sit nisl.
             </article>
         </section>
 
@@ -37,22 +44,22 @@
         </section>
     </main>
 
-    <section>
+    <section class="page2">
         <aside aria-label="content">
             <h2>It's helpful for operating system</h2>
             <ul>
                 <li>Ultra fast & Secure</li>
-                    <article>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor 
-                    </article>
+                <article>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor
+                </article>
                 <li>Allows customization</li>
-                    <article>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor 
-                    </article>
+                <article>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor
+                </article>
                 <li>Smart contract</li>
-                    <article>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor 
-                    </article>
+                <article>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor
+                </article>
             </ul>
         </aside>
 
@@ -64,7 +71,8 @@
     <section class="card-section">
         <h2>We Provide Best Feature for Customer</h2>
         <div class="cards">
-            <div class="card" >
+            <div class="card">
+
                 <div class="img" style="background-color: rgb(199, 139, 139);">
                     <img src="images/web-developing.svg" width="40px" alt="">
                 </div>
@@ -92,7 +100,8 @@
 
             <div class="card">
                 <div class="img" style="background-color: rgb(111, 150, 149);">
-                    <img src="images/secured-profile.svg" style="background-color: rgb(111, 150, 149);" width="40px" alt="">
+                    <img src="images/secured-profile.svg" style="background-color: rgb(111, 150, 149);" width="40px"
+                        alt="">
                 </div>
                 <div>
                     <h3>Clean Code</h3>
@@ -116,5 +125,34 @@
             </div>
         </div>
     </section>
+
+
+    <section class="mob-nav" id="mobNav">
+        <ul class="mob-list">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Priceing</li>
+            <li>Testimonials</li>
+            <li>Blog</li>
+            <button>Free Trail</button>
+        </ul>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobNav = document.getElementById("mobNav")
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+            if (!menuOpen) {
+                menuBtn.classList.add('open');
+                mobNav.classList.add("remove")
+                menuOpen = true;
+            } else {
+                menuBtn.classList.remove('open');
+                mobNav.classList.remove("remove")
+                menuOpen = false;
+            }
+        });
+    </script>
 </body>
+
 </html>
