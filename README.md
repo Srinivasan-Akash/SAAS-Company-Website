@@ -1,15 +1,20 @@
 # SAAS-Company-Website [![Template Project](https://img.shields.io/badge/Template-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Template Project](https://img.shields.io/badge/Technologies%20-HTML%2FCSS-brightgreen)](http://www.gnu.org/licenses/agpl-3.0)
 
 This is basically a fully blown website project made in HTML/CSS with 4 to 5 web pages for an imaginary SAAS based company on the internet.
-Hope you like my project !! And Note that I haven't made it responsive it only works in laptop screen if you are useing desktop please zomm in or out that might work .
+Hope you like my project !! And Note that Ihave made it responsive in mobile screens and laptop screens that is from 370px to 480px
 
 ## 🛠 Technologies Used
   - HTML - Hyper Text Markup Language
   - CSS - Cascadeing Spread Sheet
   - CSS Flex Box
+  - CSS Media Queries
 
-## 🚩 Demo
+## 🚩 Demo in Laptop Screen
 https://user-images.githubusercontent.com/108281031/181753196-e257ab1b-568d-49e9-99f8-0dc1f7f01899.mp4
+
+## 🚩 Demo in Mobile Screen
+https://user-images.githubusercontent.com/108281031/185429850-4fa376a1-1732-4d2a-be77-81e82ba55184.mp4
+
 
 ## Run Locally
 
